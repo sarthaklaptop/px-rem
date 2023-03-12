@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Px-to-REM</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+
+    <div class="wrapper" >
+
+        <!-- Conteiner -->
+        <div class="container">
+
+            <!-- Heading -->
+            <h3>PX to REM converter</h3>
+
+            <!-- Main Content -->
+            <div class="main">
+            <!-- boxex -->
+                <div class="boxes">
+
+                    <!-- Left box -->
+                    <div class="box" >
+                        <p>Pixels</p>
+                        <input id="px" type="text" placeholder="Enter Number">
+                    </div>
+                            
+
+                    <!-- to -->
+                    <button class="button" onclick="convert()">convert</button>
+
+                    <!-- Right box -->
+                    <div class="box">
+                        <p>REM</p>
+                        <input id="rem" type="text"
+                         placeholder="Enter Number">
+                        <img onclick="copy_text()" id="copy_btn" width="40px" src="./copy.png" alt="">
+                    </div>
+                    <!-- <p>Pixels</p>
+                    <input type="text"> -->
+                </div>
+                <p class="headline">PX ↔︎ REM</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
